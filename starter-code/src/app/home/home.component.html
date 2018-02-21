@@ -1,0 +1,16 @@
+<div class="contain" *ngFor = "let pelis of movies">
+  <div class="row">
+    <div class="col-sm-12">
+        <a [routerLink]="['/movie/',pelis.id]"><h3>Room:{{pelis.id}}</h3></a>
+        <a [routerLink]="['/movie/',pelis.id]"><img src="{{pelis.poster}}" width="220px" height="300px"></a>
+        <a [routerLink]="['/movie/',pelis.id]"><h5>Room:{{pelis.title}}</h5></a>
+    </div>
+     
+  
+</div>
+
+
+
+</div>
+
+

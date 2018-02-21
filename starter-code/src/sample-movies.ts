@@ -1,3 +1,5 @@
+
+const movies:any =
 [
   {
     id: 1,
@@ -71,7 +73,7 @@
       "Maggie Gyllenhaal",
       "Gary Oldman"
     ]
-  }, {
+  }, 
   {
     id: 5,
     title: "Schindler's List",
@@ -92,3 +94,4 @@
     ]
   }
 ]
+export default movies;
